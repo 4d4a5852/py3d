@@ -64,7 +64,7 @@ class Vertex:
     def normal(self):
         return self.all_normals[self.normal_index]
 
-    @point.setter
+    @normal.setter
     def normal(self, value):
         this.normal_index = self.all_normals.index(value)
 
